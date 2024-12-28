@@ -1,5 +1,5 @@
-import React from 'react';
-import { Scale, Mail, Phone, MapPin } from 'lucide-react';
+import React from "react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -9,11 +9,16 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <Scale className="h-8 w-8 text-gold-500" />
+              <img
+                src="/assets/logo.png"
+                alt="Angel Trust"
+                className="h-8 w-8"
+              />
               <span className="ml-2 text-xl font-semibold">Angel Trust</span>
             </div>
             <p className="text-gray-400">
-              Protecting your legacy through expert estate planning in Virginia & DC.
+              Protecting your legacy through expert estate planning in Virginia
+              & DC.
             </p>
           </div>
 
@@ -29,8 +34,11 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-gold-500 mr-2" />
-                <a href="mailto:adam@angeltrust.com" className="hover:text-gold-500">
-                  adam@angeltrust.com
+                <a
+                  href="mailto:engel@engellawoffices.com"
+                  className="hover:text-gold-500"
+                >
+                  engel@engellawoffices.com
                 </a>
               </li>
               <li className="flex items-center">
@@ -41,29 +49,59 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/services" className="hover:text-gold-500">Services</a></li>
-              <li><a href="/about" className="hover:text-gold-500">About</a></li>
-              <li><a href="/blog" className="hover:text-gold-500">Blog</a></li>
-              <li><a href="/contact" className="hover:text-gold-500">Contact</a></li>
+              <li>
+                <a href="/services" className="hover:text-gold-500">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="hover:text-gold-500">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="/blog" className="hover:text-gold-500">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:text-gold-500">
+                  Contact
+                </a>
+              </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Legal */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><a href="/privacy" className="hover:text-gold-500">Privacy Policy</a></li>
-              <li><a href="/terms" className="hover:text-gold-500">Terms of Service</a></li>
-              <li><a href="/disclaimer" className="hover:text-gold-500">Disclaimer</a></li>
+              <li>
+                <a href="/privacy" className="hover:text-gold-500">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="/terms" className="hover:text-gold-500">
+                  Terms of Service
+                </a>
+              </li>
+              <li>
+                <a href="/disclaimer" className="hover:text-gold-500">
+                  Disclaimer
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Angel Trust. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Angel Trust. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

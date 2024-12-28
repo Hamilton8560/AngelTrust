@@ -10,8 +10,8 @@ import { CategoryPage } from "./pages/blog/CategoryPage";
 import { ContactPage } from "./pages/contact";
 import { SearchProvider } from "./contexts/SearchContext";
 import { PrivacyPolicy } from "./pages/legal/PrivacyPolicy";
-import { TermsOfService } from "./pages/legal/TermsOfService";
 import { Disclaimer } from "./pages/legal/Disclaimer";
+import { TermsOfService } from "./pages/legal/TermsOfService";
 
 export default function App() {
   // Use Vite's import.meta.env instead of process.env

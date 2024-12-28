@@ -33,7 +33,7 @@ export function EstimatedFee({ fee, specialTrustType }: EstimatedFeeProps) {
               href="tel:+17037878740"
               className="block mt-2 text-xl font-bold text-gold-500 hover:text-gold-400 transition-colors"
             >
-              (703) 787-8740
+              (703) 223-2170
             </a>
           </div>
 
@@ -43,7 +43,7 @@ export function EstimatedFee({ fee, specialTrustType }: EstimatedFeeProps) {
               Schedule a consultation:
             </p>
             <a
-              href="https://calendly.com/angeltrust/consultation"
+              href="https://calendly.com/engellawoffice/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-gold-500 text-white rounded-md hover:bg-gold-600 transition-colors"

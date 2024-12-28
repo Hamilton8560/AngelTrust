@@ -1,12 +1,6 @@
-export interface CalculatorState {
-  state: string;
-  documentType: string;
-  spouseIncluded: boolean;
-  minorChildren: number;
-  propertyType: string[];
-  specialProvisions: string[];
-}
+import { CalculatorState } from "../../types/calculator";
 
-export interface CalculatorFormProps extends CalculatorState {
+export interface CalculatorFormProps {
+  state: CalculatorState;
   updateField: (field: keyof CalculatorState, value: any) => void;
 }

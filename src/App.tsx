@@ -8,6 +8,9 @@ import { BlogPage } from "./pages/blog";
 import { BlogPostPage } from "./pages/blog/BlogPostPage";
 import { CategoryPage } from "./pages/blog/CategoryPage";
 import { ContactPage } from "./pages/contact";
+import { PrivacyPolicy } from "./pages/legal/PrivacyPolicy";
+import { Disclaimer } from "./pages/legal/Disclaimer";
+import { TermsOfService } from "./pages/legal/TermsOfService";
 
 export default function App() {
   // Use Vite's import.meta.env instead of process.env
@@ -34,6 +37,9 @@ export default function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/category/:category" element={<CategoryPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />
         </Routes>
       </Layout>
     </Router>

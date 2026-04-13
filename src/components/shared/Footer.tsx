@@ -18,8 +18,7 @@ export function Footer() {
               <span className="ml-2 text-xl font-semibold">Angel Trust</span>
             </div>
             <p className="text-gray-400 max-w-sm">
-              Protecting your legacy through expert estate planning in Virginia
-              & DC.
+              Estate planning attorney helping families across Virginia & DC.
             </p>
           </div>
 

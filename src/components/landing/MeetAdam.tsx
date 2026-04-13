@@ -57,7 +57,7 @@ export function MeetAdam() {
           >
             <div className="relative w-full max-w-[320px] aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-b from-navy-700 to-navy-900 border border-gold-500/10">
               <img
-                src="https://www.engellawoffices.com/wp-content/uploads/2024/01/adam-engel.jpg"
+                src="/media/adam-engel-headshot.png"
                 alt="Adam Engel, Estate Planning Attorney"
                 className="w-full h-full object-cover"
               />

@@ -2,7 +2,7 @@ import React from 'react';
 import { Hero } from './Hero';
 import { ProblemAgitation } from './ProblemAgitation';
 import { ValueStack } from './ValueStack';
-import { TestimonialMarquee } from './TestimonialMarquee';
+import { TestimonialWall } from './TestimonialWall';
 import { MeetAdam } from './MeetAdam';
 import { FinalCTA } from './FinalCTA';
 
@@ -12,7 +12,7 @@ export function LandingPage() {
       <Hero />
       <ProblemAgitation />
       <ValueStack />
-      <TestimonialMarquee />
+      <TestimonialWall />
       <div id="about">
         <MeetAdam />
       </div>

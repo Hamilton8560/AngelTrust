@@ -100,3 +100,5 @@ export const ROW_2_TESTIMONIALS: Testimonial[] = [
     boldPhrase: 'very thorough and expeditious',
   },
 ];
+
+export const ALL_TESTIMONIALS: Testimonial[] = [...ROW_1_TESTIMONIALS, ...ROW_2_TESTIMONIALS];
